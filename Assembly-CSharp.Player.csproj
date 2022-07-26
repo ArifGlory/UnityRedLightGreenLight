@@ -271,20 +271,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Boxophobic.Utils.Editor">
+      <HintPath>Library\ScriptAssemblies\Boxophobic.Utils.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Boxophobic.PolyverseSkies.Editor">
       <HintPath>Library\ScriptAssemblies\Boxophobic.PolyverseSkies.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Boxophobic.Utils.Editor">
-      <HintPath>Library\ScriptAssemblies\Boxophobic.Utils.Editor.dll</HintPath>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Program Files 2\UnityEditor\2020.3.37f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -633,6 +633,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.Player.csproj">
+      <Project>{E3B1514C-7CB5-86EF-7F71-EDD304FF1A90}</Project>
+      <Name>Boxophobic.Utils.Scripts.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
       <Project>{E4C2502F-0AAF-C017-3C8D-FA51ACC2E323}</Project>
       <Name>Unity.Timeline.Player</Name>
@@ -641,21 +645,17 @@
       <Project>{2A94B132-753B-367E-83D3-4133321DA35B}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Scripts.Player.csproj">
+      <Project>{3F03F118-78C1-64CD-BA69-088DDC874C08}</Project>
+      <Name>Boxophobic.PolyverseSkies.Scripts.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
       <Project>{6AB5C020-C24E-2CD2-8579-9B82FDB8135C}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Scripts.Player.csproj">
-      <Project>{E3B1514C-7CB5-86EF-7F71-EDD304FF1A90}</Project>
-      <Name>Boxophobic.Utils.Scripts.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Boxophobic.PolyverseSkies.Runtime.Player.csproj">
       <Project>{776EBC55-2FD1-201A-5937-8BE7F7EDCFB5}</Project>
       <Name>Boxophobic.PolyverseSkies.Runtime.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.PolyverseSkies.Scripts.Player.csproj">
-      <Project>{3F03F118-78C1-64CD-BA69-088DDC874C08}</Project>
-      <Name>Boxophobic.PolyverseSkies.Scripts.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

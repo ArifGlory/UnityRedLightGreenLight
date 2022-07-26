@@ -26,5 +26,7 @@ public class DollController : MonoBehaviour
             isGreenLight = true;
             print("Lampu hijau gan");
         }
+
+        StartCoroutine(ChangeLightCoroutine());
     }
 }

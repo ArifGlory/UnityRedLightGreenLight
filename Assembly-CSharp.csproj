@@ -633,6 +633,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
+      <Project>{FC8215E5-3C5C-C73A-303F-8F4FC76EC33F}</Project>
+      <Name>Boxophobic.Utils.Scripts</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{A2C9049E-EAF6-A13B-943C-0C218E8E6943}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -657,6 +661,14 @@
       <Project>{01B41A44-2064-9035-79C5-0A1444CBB400}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
+    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
+      <Project>{23086828-04B8-1A0C-46C4-DCECA630EF25}</Project>
+      <Name>Boxophobic.Utils.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Scripts.csproj">
+      <Project>{55945208-EC2A-E92A-F806-A71330F0BF18}</Project>
+      <Name>Boxophobic.PolyverseSkies.Scripts</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{C7DE9333-0323-DE70-9B9C-0CE801D34562}</Project>
       <Name>UnityEditor.UI</Name>
@@ -664,6 +676,10 @@
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
       <Project>{9B60CE35-A18E-067D-6166-F201010880A4}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Boxophobic.PolyverseSkies.Editor.csproj">
+      <Project>{855579A8-4626-37A8-33BF-90E2D1D924FD}</Project>
+      <Name>Boxophobic.PolyverseSkies.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{1242F36A-C819-EE43-2110-B70AFB8E9CA9}</Project>
@@ -673,25 +689,9 @@
       <Project>{879A365F-31C1-C6C7-C4A6-C2CC8B01BBE5}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Scripts.csproj">
-      <Project>{FC8215E5-3C5C-C73A-303F-8F4FC76EC33F}</Project>
-      <Name>Boxophobic.Utils.Scripts</Name>
-    </ProjectReference>
     <ProjectReference Include="Boxophobic.PolyverseSkies.Runtime.csproj">
       <Project>{B26FEABC-C911-95AF-5EBB-6EB1FEA84D23}</Project>
       <Name>Boxophobic.PolyverseSkies.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.PolyverseSkies.Scripts.csproj">
-      <Project>{55945208-EC2A-E92A-F806-A71330F0BF18}</Project>
-      <Name>Boxophobic.PolyverseSkies.Scripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.PolyverseSkies.Editor.csproj">
-      <Project>{855579A8-4626-37A8-33BF-90E2D1D924FD}</Project>
-      <Name>Boxophobic.PolyverseSkies.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Boxophobic.Utils.Editor.csproj">
-      <Project>{23086828-04B8-1A0C-46C4-DCECA630EF25}</Project>
-      <Name>Boxophobic.Utils.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

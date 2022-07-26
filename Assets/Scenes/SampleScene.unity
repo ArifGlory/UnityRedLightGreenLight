@@ -190,6 +190,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: T poseSquid Game Doll Low Poly
       objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.84574085
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.45059866
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07883904
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.004491859
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.04974623
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.008888642
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.99871224
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.043
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -5.699
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169382868667117632, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.537
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
 --- !u!4 &100311528 stripped
@@ -226,8 +266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5b0c6b83d600c449e3f2c7abbcdb5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minTimer: 0
-  maxTimer: 0
+  minTimer: 2
+  maxTimer: 4
   isGreenLight: 1
 --- !u!4 &365437617
 Transform:
@@ -236,14 +276,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365437615}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: -0.00026228, y: 0, z: -24.673}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 100311528}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &560192829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -406,6 +446,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &752141841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ca0eaeeb0078b0b41819b43fad1dd2f9, type: 3}
+  m_PrefabInstance: {fileID: 100311527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &752141842
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752141841}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 677920df57b583e45af68735ada77762, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &813823255
 GameObject:
   m_ObjectHideFlags: 0
